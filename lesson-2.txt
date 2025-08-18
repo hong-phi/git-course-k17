@@ -3,9 +3,11 @@
     b. git add <file name> : là câu lệnh dùng để add những thay đổi một file cụ thể lên vùng staging chuẩn bị cho lệnh commit
     c. git add . : là câu lệnh dùng để add tất cả những thay đổi trong project lên vùng staging chuẩn bị cho lệnh commit
     d. git commit -m "message": lệnh git commit là lệnh lưu tất cả những thay đổi đã được add lên staging lên vùng repository, option -m "message" dùng để note lại những thay đổi đó là gì để người dùng chung có thể hiểu được ý nghĩa đoạn code được commit trước khi push lên server
+    => correct : Tạo ra 1 phiên bản dựa vào các file đã được thêm ở vùng staging vào Repository với thông điệp là "message"
 2. 
     a. tạo 3 file : file 1, file 2, file 3
     b. chạy lệnh git int : để khởi tạo git trong máy local
+    => correct :  vì chưa add file nào lên staging nên không có gì để commit nha
     c. Chạy lệnh: git commit -m "init project" : lưu lại những thay đổi có trong lesson 2 với message init project
     d. Chạy lệnh: git add file1 : add file 1 vào vùng staging chuẩn bị cho lệnh commit tiếp theo
     e. Chạy lệnh: git commit -m "add file1" : lưu file 1 chuẩn bị push lên server
