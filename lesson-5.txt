@@ -1,0 +1,9 @@
+DOM Structure (Document Object Mode)
+- Đây là cấu trúc của một trang web HTML gồm nhiều phần như html, header,body và những thành phần trong body
+- Cấu trúc 1 html của một bảng ( table)
+thead : table heading ( phần trên cùng của cột đầu tiên)
+    -tr: table row (thể hiện một dòng của header)
+        - th : table heading (phần data được in đậm)
+tbody : table body (phần body của bảng, có thể hiểu là từng dòng tiếp theo sau header)
+    -tr: table row (thể hiện một dòng của header)
+        - td : table data (phần data cùa dòng)
